@@ -294,21 +294,34 @@ audioLoader.load("./assets/sounds/q4a3.mp3", function (buffer) {
 
 audioLoader.load("./assets/sounds/q5.mp3", function (buffer) {
   AUDIOS[4].question = new Audio(LISTENER).setBuffer(buffer);
-  AUDIOS[5].question = new Audio(LISTENER).setBuffer(buffer);
 });
 
 audioLoader.load("./assets/sounds/q5a1.mp3", function (buffer) {
   AUDIOS[4].answer1 = new Audio(LISTENER).setBuffer(buffer);
-  AUDIOS[5].answer1 = new Audio(LISTENER).setBuffer(buffer);
 });
 
 audioLoader.load("./assets/sounds/q5a2.mp3", function (buffer) {
   AUDIOS[4].answer2 = new Audio(LISTENER).setBuffer(buffer);
-  AUDIOS[5].answer2 = new Audio(LISTENER).setBuffer(buffer);
 });
 
 audioLoader.load("./assets/sounds/q5a3.mp3", function (buffer) {
   AUDIOS[4].answer3 = new Audio(LISTENER).setBuffer(buffer);
+});
+
+// question 6
+audioLoader.load("./assets/sounds/q6.mp3", function (buffer) {
+  AUDIOS[5].question = new Audio(LISTENER).setBuffer(buffer);
+});
+
+audioLoader.load("./assets/sounds/q6a1.mp3", function (buffer) {
+  AUDIOS[5].answer1 = new Audio(LISTENER).setBuffer(buffer);
+});
+
+audioLoader.load("./assets/sounds/q6a2.mp3", function (buffer) {
+  AUDIOS[5].answer2 = new Audio(LISTENER).setBuffer(buffer);
+});
+
+audioLoader.load("./assets/sounds/q6a3.mp3", function (buffer) {
   AUDIOS[5].answer3 = new Audio(LISTENER).setBuffer(buffer);
 });
 
@@ -339,3 +352,4 @@ export {
   LISTENER,
   AUDIOS,
 };
+
